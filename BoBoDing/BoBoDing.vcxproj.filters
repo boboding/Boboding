@@ -1,0 +1,1202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UltimateGrid">
+      <UniqueIdentifier>{98dd4b3f-cb0f-4b9c-a7da-94f9d50d1c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UltimateGrid\CellTypes">
+      <UniqueIdentifier>{b1941f55-14e9-4634-938c-6089dc822f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UltimateGrid\EditControls">
+      <UniqueIdentifier>{3cb6e481-8463-4571-b569-752aa1333c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UltimateGrid\Include">
+      <UniqueIdentifier>{11ece009-66f5-41e8-8c8b-d723210d1b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UltimateGrid\Source">
+      <UniqueIdentifier>{543f1fd8-2c20-4398-bc5a-05abbe591c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memo">
+      <UniqueIdentifier>{9a596eec-9b9f-40b5-ab84-98262cb22818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edit">
+      <UniqueIdentifier>{0bc85d0a-83e0-47e0-b35c-0a4ddb92206a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Button">
+      <UniqueIdentifier>{5dd99d5e-deed-49e9-96a3-87cc5aec8a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite">
+      <UniqueIdentifier>{db6678e3-1edf-4330-82d8-b6d571a8adc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Account">
+      <UniqueIdentifier>{f642fe99-f3f6-41f7-8adc-52fbccbd3ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OrangeEdit">
+      <UniqueIdentifier>{fb4b9bca-0ac8-4f56-a6eb-79364d43afb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ColorStatic">
+      <UniqueIdentifier>{28ac505b-8b8f-47e8-8d2e-68d1940bb147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Set">
+      <UniqueIdentifier>{ff6cb427-6c81-4c79-873b-2965dca0b975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desktop">
+      <UniqueIdentifier>{679e4551-fd06-49dd-af83-73ce233db050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Website">
+      <UniqueIdentifier>{abe1c3b3-6675-40a8-b2df-ec2c385e15a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrayIcon">
+      <UniqueIdentifier>{2cd6ac83-6711-4d1e-90d9-50c9844cd8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="URL">
+      <UniqueIdentifier>{18bea7b4-22c2-4201-b933-1f0c859fba2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DesktopSearch">
+      <UniqueIdentifier>{9769fd84-8b28-4ceb-96a9-ef7bd8c1483c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TabCtrl">
+      <UniqueIdentifier>{5eda5df3-ec39-4cfb-b7bc-99bbdf21a687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GroupBox">
+      <UniqueIdentifier>{aa0e6d45-9f5c-433a-b62b-3240dd7f409d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{e888bf6f-05c7-4832-8a1a-5822c9bfb7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GdipButton">
+      <UniqueIdentifier>{fea65cd4-7588-46af-b757-fbf34df12321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{87ef17b9-687f-4463-9a6e-6652eff46768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LEDScreen">
+      <UniqueIdentifier>{81a292e8-a5db-409c-9cd6-de515eb50f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel">
+      <UniqueIdentifier>{8d8916c2-6f39-48ad-9ee9-03530c38f10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="购物">
+      <UniqueIdentifier>{e3b87d82-d37c-4c9c-9840-8a7ef24e8c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="收支项目">
+      <UniqueIdentifier>{435a0784-a028-4610-80e3-ff663a87a36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AddressBook">
+      <UniqueIdentifier>{19484b28-3c87-49a1-a81e-230c4514cf27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\BoBoDing.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BoBoDing.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Tab\HDOWN.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Tab\HNORMAL.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Tab\HOVER.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Tab\Memo.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Border\TitleCenter.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Border\TitleLeft.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Border\TitleRight.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Edit\EditNormal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Edit\EditPressed.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\Normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\Over.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\Pressed.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_mid_nomal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_mid_on.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_mid_pressed.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_min_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_min_on.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_min_press.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_edit_normal.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_edit_on.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\btn_edit_press.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Set\file.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Set\folder.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\set\png1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\desktop\ctrl.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\desktop\desktop1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\desktop\desktop2.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\desktop\num1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\desktop\num2.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\desktop\shift.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\button\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\Search.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Edit\ShopEdit.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\Statistics.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\SearchEngine.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\Cancel.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\Save.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\Import.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\SelectAll.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button\SelectNo.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\abchina.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\bankcomm.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\boc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\ccb.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\cebbank.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\cgbchina.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\cib.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\cmbc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\cmbchina.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\ecitic.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\hxb.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\icbc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\pingan.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\psbc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\sdb.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bank\spdb.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\6.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\7.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\8.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\9.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\10.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ZhiFu\11.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\0.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\1.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\2.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\3.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\4.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\5.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\6.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\7.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\caption\CloseDown.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\caption\CloseHover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\caption\CloseNormal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\caption\MiniDown.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\caption\MiniHover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\caption\MiniNormal.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\change.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\del.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\new.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\cancel.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\favorites.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\query.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\save.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\shouru.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\tongji.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\zhichu.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\backup.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\recover.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\test.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\inverse.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\select.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\export.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\desktop\plus.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\NoteDel.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\png\NoteSave.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main\8.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoBoDing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoBoDingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTafnt.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTAutoSize.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTbutn.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTDropGrid.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTdtp.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\ugctelps.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTExpand.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTLabeled.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTMail.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTMailSort.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTMarquee.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTmfnt.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTNote.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\ugctnotewnd.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTOutlookHeader.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTpie.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTpro1.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTprog.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTRado.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTsarw.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTsldr.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTSpin.h">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\EditControls\UTEdit.h">
+      <Filter>UltimateGrid\EditControls</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\EditControls\UTMaskedEdit.h">
+      <Filter>UltimateGrid\EditControls</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UG64Bit.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGCBType.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGCell.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugceltyp.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGCnrBtn.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGCTarrw.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGCtrl.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugdefine.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGDLType.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGDrgDrp.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGDrwHnt.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGDtaSrc.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGEdit.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGEditBase.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugformat.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\uggdinfo.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGGrid.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGHint.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ughscrol.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\uglstbox.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGMEdit.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGMemMan.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGMultiS.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugprint.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugptrlst.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugsidehd.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGStrOp.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugstruct.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugtab.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\UGTopHdg.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugvscrol.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UltimateGrid\Include\ugxpthemes.h">
+      <Filter>UltimateGrid\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="UGMemo.h">
+      <Filter>Memo</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit\EditWithButton.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="Button\xSkinButton.h">
+      <Filter>Button</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite\CppSQLite3U.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite\sqlite3.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZiJinLiuShui.h">
+      <Filter>Account</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZiJinLiuShuiShouRu.h">
+      <Filter>Account</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZiJinLiuShuiShouRuChange.h">
+      <Filter>Account</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZiJinLiuShuiZhiChu.h">
+      <Filter>Account</Filter>
+    </ClInclude>
+    <ClInclude Include="UGZiJinLiuShui.h">
+      <Filter>Account</Filter>
+    </ClInclude>
+    <ClInclude Include="OrangeEdit.h">
+      <Filter>OrangeEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorStatic\FontSize.h">
+      <Filter>ColorStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorStatic\XColorStatic.h">
+      <Filter>ColorStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProjectChange.h">
+      <Filter>收支项目</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProjectNew.h">
+      <Filter>收支项目</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProject.h">
+      <Filter>收支项目</Filter>
+    </ClInclude>
+    <ClInclude Include="UGProjectEdit.h">
+      <Filter>收支项目</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAddressBook.h">
+      <Filter>AddressBook</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAddressBookAdd.h">
+      <Filter>AddressBook</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAddressBookChange.h">
+      <Filter>AddressBook</Filter>
+    </ClInclude>
+    <ClInclude Include="UGAddressBook.h">
+      <Filter>AddressBook</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMemo.h">
+      <Filter>Memo</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMemoChange.h">
+      <Filter>Memo</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMemoAdd.h">
+      <Filter>Memo</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAbout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DesktopManager.h">
+      <Filter>Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="RegSettings.h">
+      <Filter>Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDef.h">
+      <Filter>Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShopping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWebsite.h">
+      <Filter>Website</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWebsiteAdd.h">
+      <Filter>Website</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWebsiteChange.h">
+      <Filter>Website</Filter>
+    </ClInclude>
+    <ClInclude Include="UGWebsite.h">
+      <Filter>Website</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon\TrayIcon.h">
+      <Filter>TrayIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer_shopping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="URLEncode.h">
+      <Filter>URL</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDesktopSearch.h">
+      <Filter>DesktopSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTabShopping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TabCtrl\Draw.h">
+      <Filter>TabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="TabCtrl\TabCtrl.h">
+      <Filter>TabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="TabCtrl\Tools.h">
+      <Filter>TabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSubExpressage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupBox\UltimateGroupBox.h">
+      <Filter>GroupBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgExpressage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgBank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZhiFu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBase.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageButton.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalButton.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SolelyButton.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="StopwatchTimer.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemButton.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgBase.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="List\HeaderCtrlCl.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="List\ListCtrlCl.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="GdipButton\CGdiPlusBitmap.h">
+      <Filter>GdipButton</Filter>
+    </ClInclude>
+    <ClInclude Include="GdipButton\GdipButton.h">
+      <Filter>GdipButton</Filter>
+    </ClInclude>
+    <ClInclude Include="GdipButton\MemDC.h">
+      <Filter>GdipButton</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgJiZhang.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWeb.h">
+      <Filter>Website</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LEDScreen\LEDScreen.h">
+      <Filter>LEDScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgKeyboard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgNavigation.h">
+      <Filter>Website</Filter>
+    </ClInclude>
+    <ClInclude Include="Excel\BasicExcel.h">
+      <Filter>Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDesktop.h">
+      <Filter>Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWebsiteImport.h">
+      <Filter>Website</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShop.h">
+      <Filter>购物</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShopMall.h">
+      <Filter>购物</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgNote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoBoDing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoBoDingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTafnt.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTAutoSize.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTbutn.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTDropGrid.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTdtp.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\ugctelps.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTExpand.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTLabeled.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTMail.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTMailSort.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTMarquee.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTmfnt.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTNote.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\ugctnotewnd.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTOutlookHeader.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTpie.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTpro1.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTprog.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTRado.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTsarw.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTsldr.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTSpin.cpp">
+      <Filter>UltimateGrid\CellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\EditControls\UTEdit.cpp">
+      <Filter>UltimateGrid\EditControls</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\EditControls\UTMaskedEdit.cpp">
+      <Filter>UltimateGrid\EditControls</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGCBType.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGCell.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGCelTyp.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGCnrBtn.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGCTarrw.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGCtrl.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGDLType.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGDrgDrp.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGDrwHnt.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGDtaSrc.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGEdit.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGEditBase.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\ugformat.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\uggdinfo.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGGrid.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGHint.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\ughscrol.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\ugLstBox.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGMEdit.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGMemMan.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGMultiS.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\ugprint.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\ugptrlst.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\ugsidehd.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGStrOp.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\ugtab.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGTopHdg.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\ugvscrol.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\Source\UGXPThemes.cpp">
+      <Filter>UltimateGrid\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UGMemo.cpp">
+      <Filter>Memo</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit\EditWithButton.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Button\xSkinButton.cpp">
+      <Filter>Button</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite\CppSQLite3U.cpp">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZiJinLiuShui.cpp">
+      <Filter>Account</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZiJinLiuShuiShouRu.cpp">
+      <Filter>Account</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZiJinLiuShuiShouRuChange.cpp">
+      <Filter>Account</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZiJinLiuShuiZhiChu.cpp">
+      <Filter>Account</Filter>
+    </ClCompile>
+    <ClCompile Include="UGZiJinLiuShui.cpp">
+      <Filter>Account</Filter>
+    </ClCompile>
+    <ClCompile Include="OrangeEdit.cpp">
+      <Filter>OrangeEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorStatic\FontSize.cpp">
+      <Filter>ColorStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorStatic\XColorStatic.cpp">
+      <Filter>ColorStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProjectChange.cpp">
+      <Filter>收支项目</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProjectNew.cpp">
+      <Filter>收支项目</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProject.cpp">
+      <Filter>收支项目</Filter>
+    </ClCompile>
+    <ClCompile Include="UGProjectEdit.cpp">
+      <Filter>收支项目</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAddressBook.cpp">
+      <Filter>AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAddressBookAdd.cpp">
+      <Filter>AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAddressBookChange.cpp">
+      <Filter>AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="UGAddressBook.cpp">
+      <Filter>AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMemo.cpp">
+      <Filter>Memo</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMemoChange.cpp">
+      <Filter>Memo</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMemoAdd.cpp">
+      <Filter>Memo</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAbout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DesktopManager.cpp">
+      <Filter>Desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="RegSettings.cpp">
+      <Filter>Desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFunctions.cpp">
+      <Filter>Desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShopping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWebsite.cpp">
+      <Filter>Website</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWebsiteAdd.cpp">
+      <Filter>Website</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWebsiteChange.cpp">
+      <Filter>Website</Filter>
+    </ClCompile>
+    <ClCompile Include="UGWebsite.cpp">
+      <Filter>Website</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon\TrayIcon.cpp">
+      <Filter>TrayIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer_shopping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSearch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="URLEncode.cpp">
+      <Filter>URL</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDesktopSearch.cpp">
+      <Filter>DesktopSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTabShopping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TabCtrl\TabCtrl.cpp">
+      <Filter>TabCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSubExpressage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupBox\UltimateGroupBox.cpp">
+      <Filter>GroupBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgExpressage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZhiFu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Area.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBase.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageButton.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalButton.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SolelyButton.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="StopwatchTimer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemButton.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBase.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="List\HeaderCtrlCl.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="List\ListCtrlCl.cpp">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="GdipButton\GdipButton.cpp">
+      <Filter>GdipButton</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgJiZhang.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWeb.cpp">
+      <Filter>Website</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LEDScreen\LEDScreen.cpp">
+      <Filter>LEDScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgKeyboard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgNavigation.cpp">
+      <Filter>Website</Filter>
+    </ClCompile>
+    <ClCompile Include="Excel\BasicExcel.cpp">
+      <Filter>Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDesktop.cpp">
+      <Filter>Desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWebsiteImport.cpp">
+      <Filter>Website</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShop.cpp">
+      <Filter>购物</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShopMall.cpp">
+      <Filter>购物</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgNote.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BoBoDing.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

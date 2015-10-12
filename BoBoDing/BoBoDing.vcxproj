@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37317CAC-67FA-459A-AC69-B1A25946CDEC}</ProjectGuid>
+    <RootNamespace>BoBoDing</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\BoBoDing\BoBoDing\UltimateGrid\Include;D:\BoBoDing\BoBoDing\UltimateGrid\Source;D:\BoBoDing\BoBoDing\UltimateGrid\CellTypes;D:\BoBoDing\BoBoDing\UltimateGrid\EditControls;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\BoBoDing\BoBoDing\SQLite;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sqlite3.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>UltimateGrid\CellTypes;UltimateGrid\EditControls;UltimateGrid\Include;UltimateGrid\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>SQLite</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sqlite3.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Bank\abchina.bmp" />
+    <None Include="res\Bank\bankcomm.bmp" />
+    <None Include="res\Bank\boc.bmp" />
+    <None Include="res\Bank\ccb.bmp" />
+    <None Include="res\Bank\cebbank.bmp" />
+    <None Include="res\Bank\cgbchina.bmp" />
+    <None Include="res\Bank\cib.bmp" />
+    <None Include="res\Bank\cmbc.bmp" />
+    <None Include="res\Bank\cmbchina.bmp" />
+    <None Include="res\Bank\ecitic.bmp" />
+    <None Include="res\Bank\hxb.bmp" />
+    <None Include="res\Bank\icbc.bmp" />
+    <None Include="res\Bank\pingan.bmp" />
+    <None Include="res\Bank\psbc.bmp" />
+    <None Include="res\Bank\sdb.bmp" />
+    <None Include="res\Bank\spdb.bmp" />
+    <None Include="res\BoBoDing.ico" />
+    <None Include="res\BoBoDing.rc2" />
+    <None Include="res\Border\TitleCenter.bmp" />
+    <None Include="res\Border\TitleLeft.bmp" />
+    <None Include="res\Border\TitleRight.bmp" />
+    <None Include="res\button\bitmap1.bmp" />
+    <None Include="res\Button\btn_edit_normal.bmp" />
+    <None Include="res\Button\btn_edit_on.bmp" />
+    <None Include="res\Button\btn_edit_press.bmp" />
+    <None Include="res\Button\btn_mid_nomal.bmp" />
+    <None Include="res\Button\btn_mid_on.bmp" />
+    <None Include="res\Button\btn_mid_pressed.bmp" />
+    <None Include="res\Button\btn_min_normal.bmp" />
+    <None Include="res\Button\btn_min_on.bmp" />
+    <None Include="res\Button\btn_min_press.bmp" />
+    <None Include="res\Button\Cancel.bmp" />
+    <None Include="res\Button\Import.bmp" />
+    <None Include="res\Button\Normal.bmp" />
+    <None Include="res\Button\Over.bmp" />
+    <None Include="res\Button\Pressed.bmp" />
+    <None Include="res\Button\Save.bmp" />
+    <None Include="res\Button\Search.bmp" />
+    <None Include="res\Button\SearchEngine.bmp" />
+    <None Include="res\Button\SelectAll.bmp" />
+    <None Include="res\Button\SelectNo.bmp" />
+    <None Include="res\Button\Statistics.bmp" />
+    <None Include="res\caption\CloseDown.png" />
+    <None Include="res\caption\CloseHover.png" />
+    <None Include="res\caption\CloseNormal.png" />
+    <None Include="res\caption\MiniDown.png" />
+    <None Include="res\caption\MiniHover.png" />
+    <None Include="res\caption\MiniNormal.png" />
+    <None Include="res\desktop\ctrl.png" />
+    <None Include="res\desktop\desktop1.png" />
+    <None Include="res\desktop\desktop2.png" />
+    <None Include="res\desktop\num1.png" />
+    <None Include="res\desktop\num2.png" />
+    <None Include="res\desktop\plus.png" />
+    <None Include="res\desktop\shift.png" />
+    <None Include="res\Edit\EditNormal.bmp" />
+    <None Include="res\Edit\EditPressed.bmp" />
+    <None Include="res\Edit\ShopEdit.bmp" />
+    <None Include="res\main\0.png" />
+    <None Include="res\main\1.png" />
+    <None Include="res\main\2.png" />
+    <None Include="res\main\3.png" />
+    <None Include="res\main\4.png" />
+    <None Include="res\main\5.png" />
+    <None Include="res\main\6.png" />
+    <None Include="res\main\7.png" />
+    <None Include="res\main\8.png" />
+    <None Include="res\png\backup.png" />
+    <None Include="res\png\cancel.png" />
+    <None Include="res\png\change.png" />
+    <None Include="res\png\del.png" />
+    <None Include="res\png\export.png" />
+    <None Include="res\png\favorites.png" />
+    <None Include="res\png\inverse.png" />
+    <None Include="res\png\new.png" />
+    <None Include="res\png\NoteDel.png" />
+    <None Include="res\png\NoteSave.png" />
+    <None Include="res\png\query.png" />
+    <None Include="res\png\recover.png" />
+    <None Include="res\png\save.png" />
+    <None Include="res\png\select.png" />
+    <None Include="res\png\shouru.png" />
+    <None Include="res\png\test.bmp" />
+    <None Include="res\png\tongji.png" />
+    <None Include="res\png\zhichu.png" />
+    <None Include="res\Set\file.ico" />
+    <None Include="res\Set\folder.ico" />
+    <None Include="res\set\png1.png" />
+    <None Include="res\Tab\HDOWN.bmp" />
+    <None Include="res\Tab\HNORMAL.bmp" />
+    <None Include="res\Tab\HOVER.bmp" />
+    <None Include="res\Tab\Memo.ico" />
+    <None Include="res\ZhiFu\1.bmp" />
+    <None Include="res\ZhiFu\10.bmp" />
+    <None Include="res\ZhiFu\11.bmp" />
+    <None Include="res\ZhiFu\2.bmp" />
+    <None Include="res\ZhiFu\3.bmp" />
+    <None Include="res\ZhiFu\4.bmp" />
+    <None Include="res\ZhiFu\5.bmp" />
+    <None Include="res\ZhiFu\6.bmp" />
+    <None Include="res\ZhiFu\7.bmp" />
+    <None Include="res\ZhiFu\8.bmp" />
+    <None Include="res\ZhiFu\9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Area.h" />
+    <ClInclude Include="BoBoDing.h" />
+    <ClInclude Include="BoBoDingDlg.h" />
+    <ClInclude Include="Button\xSkinButton.h" />
+    <ClInclude Include="ColorStatic\FontSize.h" />
+    <ClInclude Include="ColorStatic\XColorStatic.h" />
+    <ClInclude Include="CommonDef.h" />
+    <ClInclude Include="ControlBase.h" />
+    <ClInclude Include="DesktopManager.h" />
+    <ClInclude Include="DlgAbout.h" />
+    <ClInclude Include="DlgAddressBook.h" />
+    <ClInclude Include="DlgAddressBookAdd.h" />
+    <ClInclude Include="DlgAddressBookChange.h" />
+    <ClInclude Include="DlgBank.h" />
+    <ClInclude Include="DlgBase.h" />
+    <ClInclude Include="DlgDesktop.h" />
+    <ClInclude Include="DlgDesktopSearch.h" />
+    <ClInclude Include="DlgExpressage.h" />
+    <ClInclude Include="DlgJiZhang.h" />
+    <ClInclude Include="DlgKeyboard.h" />
+    <ClInclude Include="DlgMemoAdd.h" />
+    <ClInclude Include="DlgMemoChange.h" />
+    <ClInclude Include="DlgNavigation.h" />
+    <ClInclude Include="DlgNote.h" />
+    <ClInclude Include="DlgProject.h" />
+    <ClInclude Include="DlgMemo.h" />
+    <ClInclude Include="DlgProjectChange.h" />
+    <ClInclude Include="DlgProjectNew.h" />
+    <ClInclude Include="DlgSearch.h" />
+    <ClInclude Include="DlgSet.h" />
+    <ClInclude Include="DlgSetting.h" />
+    <ClInclude Include="DlgShop.h" />
+    <ClInclude Include="DlgShopMall.h" />
+    <ClInclude Include="DlgShopping.h" />
+    <ClInclude Include="DlgSubExpressage.h" />
+    <ClInclude Include="DlgTabShopping.h" />
+    <ClInclude Include="DlgTool.h" />
+    <ClInclude Include="DlgWeb.h" />
+    <ClInclude Include="DlgWebsite.h" />
+    <ClInclude Include="DlgWebsiteAdd.h" />
+    <ClInclude Include="DlgWebsiteChange.h" />
+    <ClInclude Include="DlgWebsiteImport.h" />
+    <ClInclude Include="DlgZhiFu.h" />
+    <ClInclude Include="DlgZiJinLiuShui.h" />
+    <ClInclude Include="DlgZiJinLiuShuiShouRu.h" />
+    <ClInclude Include="DlgZiJinLiuShuiShouRuChange.h" />
+    <ClInclude Include="DlgZiJinLiuShuiZhiChu.h" />
+    <ClInclude Include="Edit\EditWithButton.h" />
+    <ClInclude Include="Excel\BasicExcel.h" />
+    <ClInclude Include="explorer_shopping.h" />
+    <ClInclude Include="GdipButton\CGdiPlusBitmap.h" />
+    <ClInclude Include="GdipButton\GdipButton.h" />
+    <ClInclude Include="GdipButton\MemDC.h" />
+    <ClInclude Include="GroupBox\UltimateGroupBox.h" />
+    <ClInclude Include="ImageButton.h" />
+    <ClInclude Include="LEDScreen\LEDScreen.h" />
+    <ClInclude Include="List\HeaderCtrlCl.h" />
+    <ClInclude Include="List\ListCtrlCl.h" />
+    <ClInclude Include="NormalButton.h" />
+    <ClInclude Include="OrangeEdit.h" />
+    <ClInclude Include="RegSettings.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SolelyButton.h" />
+    <ClInclude Include="SQLite\CppSQLite3U.h" />
+    <ClInclude Include="SQLite\sqlite3.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StopwatchTimer.h" />
+    <ClInclude Include="SystemButton.h" />
+    <ClInclude Include="TabCtrl\Draw.h" />
+    <ClInclude Include="TabCtrl\TabCtrl.h" />
+    <ClInclude Include="TabCtrl\Tools.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TrayIcon\TrayIcon.h" />
+    <ClInclude Include="UGAddressBook.h" />
+    <ClInclude Include="UGMemo.h" />
+    <ClInclude Include="UGProjectEdit.h" />
+    <ClInclude Include="UGWebsite.h" />
+    <ClInclude Include="UGZiJinLiuShui.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTafnt.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTAutoSize.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTbutn.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTDropGrid.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTdtp.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\ugctelps.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTExpand.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTLabeled.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTMail.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTMailSort.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTMarquee.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTmfnt.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTNote.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\ugctnotewnd.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTOutlookHeader.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTpie.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTpro1.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTprog.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTRado.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTsarw.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTsldr.h" />
+    <ClInclude Include="UltimateGrid\CellTypes\UGCTSpin.h" />
+    <ClInclude Include="UltimateGrid\EditControls\UTEdit.h" />
+    <ClInclude Include="UltimateGrid\EditControls\UTMaskedEdit.h" />
+    <ClInclude Include="UltimateGrid\Include\UG64Bit.h" />
+    <ClInclude Include="UltimateGrid\Include\UGCBType.h" />
+    <ClInclude Include="UltimateGrid\Include\UGCell.h" />
+    <ClInclude Include="UltimateGrid\Include\ugceltyp.h" />
+    <ClInclude Include="UltimateGrid\Include\UGCnrBtn.h" />
+    <ClInclude Include="UltimateGrid\Include\UGCTarrw.h" />
+    <ClInclude Include="UltimateGrid\Include\UGCtrl.h" />
+    <ClInclude Include="UltimateGrid\Include\ugdefine.h" />
+    <ClInclude Include="UltimateGrid\Include\UGDLType.h" />
+    <ClInclude Include="UltimateGrid\Include\UGDrgDrp.h" />
+    <ClInclude Include="UltimateGrid\Include\UGDrwHnt.h" />
+    <ClInclude Include="UltimateGrid\Include\UGDtaSrc.h" />
+    <ClInclude Include="UltimateGrid\Include\UGEdit.h" />
+    <ClInclude Include="UltimateGrid\Include\UGEditBase.h" />
+    <ClInclude Include="UltimateGrid\Include\ugformat.h" />
+    <ClInclude Include="UltimateGrid\Include\uggdinfo.h" />
+    <ClInclude Include="UltimateGrid\Include\UGGrid.h" />
+    <ClInclude Include="UltimateGrid\Include\UGHint.h" />
+    <ClInclude Include="UltimateGrid\Include\ughscrol.h" />
+    <ClInclude Include="UltimateGrid\Include\uglstbox.h" />
+    <ClInclude Include="UltimateGrid\Include\UGMEdit.h" />
+    <ClInclude Include="UltimateGrid\Include\UGMemMan.h" />
+    <ClInclude Include="UltimateGrid\Include\UGMultiS.h" />
+    <ClInclude Include="UltimateGrid\Include\ugprint.h" />
+    <ClInclude Include="UltimateGrid\Include\ugptrlst.h" />
+    <ClInclude Include="UltimateGrid\Include\ugsidehd.h" />
+    <ClInclude Include="UltimateGrid\Include\UGStrOp.h" />
+    <ClInclude Include="UltimateGrid\Include\ugstruct.h" />
+    <ClInclude Include="UltimateGrid\Include\ugtab.h" />
+    <ClInclude Include="UltimateGrid\Include\UGTopHdg.h" />
+    <ClInclude Include="UltimateGrid\Include\ugvscrol.h" />
+    <ClInclude Include="UltimateGrid\Include\ugxpthemes.h" />
+    <ClInclude Include="URLEncode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Area.cpp" />
+    <ClCompile Include="BoBoDing.cpp" />
+    <ClCompile Include="BoBoDingDlg.cpp" />
+    <ClCompile Include="Button\xSkinButton.cpp" />
+    <ClCompile Include="ColorStatic\FontSize.cpp" />
+    <ClCompile Include="ColorStatic\XColorStatic.cpp" />
+    <ClCompile Include="ControlBase.cpp" />
+    <ClCompile Include="DesktopManager.cpp" />
+    <ClCompile Include="DlgAbout.cpp" />
+    <ClCompile Include="DlgAddressBook.cpp" />
+    <ClCompile Include="DlgAddressBookAdd.cpp" />
+    <ClCompile Include="DlgAddressBookChange.cpp" />
+    <ClCompile Include="DlgBank.cpp" />
+    <ClCompile Include="DlgBase.cpp" />
+    <ClCompile Include="DlgDesktop.cpp" />
+    <ClCompile Include="DlgDesktopSearch.cpp" />
+    <ClCompile Include="DlgExpressage.cpp" />
+    <ClCompile Include="DlgJiZhang.cpp" />
+    <ClCompile Include="DlgKeyboard.cpp" />
+    <ClCompile Include="DlgMemoAdd.cpp" />
+    <ClCompile Include="DlgMemoChange.cpp" />
+    <ClCompile Include="DlgNavigation.cpp" />
+    <ClCompile Include="DlgNote.cpp" />
+    <ClCompile Include="DlgProject.cpp" />
+    <ClCompile Include="DlgMemo.cpp" />
+    <ClCompile Include="DlgProjectChange.cpp" />
+    <ClCompile Include="DlgProjectNew.cpp" />
+    <ClCompile Include="DlgSearch.cpp" />
+    <ClCompile Include="DlgSet.cpp" />
+    <ClCompile Include="DlgSetting.cpp" />
+    <ClCompile Include="DlgShop.cpp" />
+    <ClCompile Include="DlgShopMall.cpp" />
+    <ClCompile Include="DlgShopping.cpp" />
+    <ClCompile Include="DlgSubExpressage.cpp" />
+    <ClCompile Include="DlgTabShopping.cpp" />
+    <ClCompile Include="DlgTool.cpp" />
+    <ClCompile Include="DlgWeb.cpp" />
+    <ClCompile Include="DlgWebsite.cpp" />
+    <ClCompile Include="DlgWebsiteAdd.cpp" />
+    <ClCompile Include="DlgWebsiteChange.cpp" />
+    <ClCompile Include="DlgWebsiteImport.cpp" />
+    <ClCompile Include="DlgZhiFu.cpp" />
+    <ClCompile Include="DlgZiJinLiuShui.cpp" />
+    <ClCompile Include="DlgZiJinLiuShuiShouRu.cpp" />
+    <ClCompile Include="DlgZiJinLiuShuiShouRuChange.cpp" />
+    <ClCompile Include="DlgZiJinLiuShuiZhiChu.cpp" />
+    <ClCompile Include="Edit\EditWithButton.cpp" />
+    <ClCompile Include="Excel\BasicExcel.cpp" />
+    <ClCompile Include="explorer_shopping.cpp" />
+    <ClCompile Include="GdipButton\GdipButton.cpp" />
+    <ClCompile Include="GlobalFunctions.cpp" />
+    <ClCompile Include="GroupBox\UltimateGroupBox.cpp" />
+    <ClCompile Include="ImageButton.cpp" />
+    <ClCompile Include="LEDScreen\LEDScreen.cpp" />
+    <ClCompile Include="List\HeaderCtrlCl.cpp" />
+    <ClCompile Include="List\ListCtrlCl.cpp" />
+    <ClCompile Include="NormalButton.cpp" />
+    <ClCompile Include="OrangeEdit.cpp" />
+    <ClCompile Include="RegSettings.cpp" />
+    <ClCompile Include="SolelyButton.cpp" />
+    <ClCompile Include="SQLite\CppSQLite3U.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StopwatchTimer.cpp" />
+    <ClCompile Include="SystemButton.cpp" />
+    <ClCompile Include="TabCtrl\TabCtrl.cpp" />
+    <ClCompile Include="TrayIcon\TrayIcon.cpp" />
+    <ClCompile Include="UGAddressBook.cpp" />
+    <ClCompile Include="UGMemo.cpp" />
+    <ClCompile Include="UGProjectEdit.cpp" />
+    <ClCompile Include="UGWebsite.cpp" />
+    <ClCompile Include="UGZiJinLiuShui.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTafnt.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTAutoSize.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTbutn.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTDropGrid.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTdtp.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\ugctelps.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTExpand.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTLabeled.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTMail.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTMailSort.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTMarquee.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTmfnt.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTNote.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\ugctnotewnd.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTOutlookHeader.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTpie.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTpro1.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTprog.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTRado.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTsarw.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTsldr.cpp" />
+    <ClCompile Include="UltimateGrid\CellTypes\UGCTSpin.cpp" />
+    <ClCompile Include="UltimateGrid\EditControls\UTEdit.cpp" />
+    <ClCompile Include="UltimateGrid\EditControls\UTMaskedEdit.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGCBType.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGCell.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGCelTyp.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGCnrBtn.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGCTarrw.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGCtrl.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGDLType.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGDrgDrp.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGDrwHnt.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGDtaSrc.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGEdit.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGEditBase.cpp" />
+    <ClCompile Include="UltimateGrid\Source\ugformat.cpp" />
+    <ClCompile Include="UltimateGrid\Source\uggdinfo.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGGrid.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGHint.cpp" />
+    <ClCompile Include="UltimateGrid\Source\ughscrol.cpp" />
+    <ClCompile Include="UltimateGrid\Source\ugLstBox.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGMEdit.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGMemMan.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGMultiS.cpp" />
+    <ClCompile Include="UltimateGrid\Source\ugprint.cpp" />
+    <ClCompile Include="UltimateGrid\Source\ugptrlst.cpp" />
+    <ClCompile Include="UltimateGrid\Source\ugsidehd.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGStrOp.cpp" />
+    <ClCompile Include="UltimateGrid\Source\ugtab.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGTopHdg.cpp" />
+    <ClCompile Include="UltimateGrid\Source\ugvscrol.cpp" />
+    <ClCompile Include="UltimateGrid\Source\UGXPThemes.cpp" />
+    <ClCompile Include="URLEncode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BoBoDing.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="BoBoDing.rc" _x007B_8856F961-340A-11D0-A96B-00C04FD705A2_x007D_="CExplorer_shopping" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
