@@ -2051,7 +2051,7 @@ long CUGWebsite::GetRowCount(int nSelect,CString strCondition)
 
 CString CUGWebsite::GetID()
 {
-
+	return _T("");
 }
 void CUGWebsite::Change()
 {

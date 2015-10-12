@@ -1757,7 +1757,7 @@ int CUGZiJinLiuShui::OnPushButton(long ID,int col,long row,long msg,long param){
 
 CString CUGZiJinLiuShui::GetID()
 {
-
+	return _T("");
 }
 void CUGZiJinLiuShui::Change()
 {

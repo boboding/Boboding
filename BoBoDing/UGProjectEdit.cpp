@@ -1579,23 +1579,7 @@ void CUGProjectEdit::InitGrid()
 
 	if(msg == UGCT_BUTTONCLICK){
 		if(nParam == BUTTON_CLICK_CHANGE){
-			//WinExec("calc.exe",SW_SHOW);
-		/*	CString strYeWuBianHao;
-			strYeWuBianHao=m_ctrl.m_strYeWuBianHao;*/
-			//CString strTruncate;
-			//strTruncate=m_strYeWuBianHao.Left(2);
-			//if(strTruncate.Compare(_T("SZ"))!=0)return TRUE;
-			//CDlgZiJinLiuShuiShouRuChange DlgZiJinLiuShuiShouRuChange;
 
-			//DlgZiJinLiuShuiShouRuChange.m_strYeWuBianHao=m_strYeWuBianHao;
-
-			//DlgZiJinLiuShuiShouRuChange.DoModal();
-			//if (DlgZiJinLiuShuiShouRuChange.m_bIsSave==true)
-			//{
-			//	//SetButtonStatus();
-			//	//UpdateData(TRUE);
-			//	SQLQuery(m_oleDateTime_timeFrom , m_oleDateTime_timeTo);
-			//}
 			ReleaseCapture();
 			m_strProjectName=QuickGetText(1,GetCurrentRow());
 			CDlgProjectChange DlgProjectChange;
@@ -1664,7 +1648,7 @@ void CUGProjectEdit::InitGrid()
 }
 	CString CUGProjectEdit::GetID()
 	{
-
+		return _T("");
 	}
 	void CUGProjectEdit::Change()
 	{
